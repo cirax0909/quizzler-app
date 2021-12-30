@@ -8,5 +8,4 @@ parameters = {
 request = requests.get(url="https://opentdb.com/api.php", params=parameters)
 response = request.json()
 question_data = response['results']
-print(question_data)
 
